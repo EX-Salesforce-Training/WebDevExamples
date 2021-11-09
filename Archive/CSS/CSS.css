@@ -1,0 +1,41 @@
+/*
+CSS, or Cascading Style Sheets
+
+Allows us to define the styling for our HTML pages, or how the various HTML elements are going to appear on the screen.
+*/
+:root {
+    --main-bg-color: brown;
+    --main-text-color: white;
+}
+
+/*
+Selectors
+*/
+body {
+    /*
+    Declaration blocks are made up of various declarations of property-value pairs.
+    */   
+    background-color: var(--main-bg-color);
+}
+
+table {
+    background-color: burlywood;
+    margin: 100em, 20em, 5em, 15em;
+    border: cadetblue;
+    border-style: solid;
+    border-width: 1em;
+    padding: 10em;
+}
+
+p[align="center"] {
+    color: var(--main-text-color);
+}
+
+.notunique {
+    background-color: tomato;
+}
+
+#unique {
+    background-color: thistle;
+}
+
